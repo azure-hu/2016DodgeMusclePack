@@ -1,5 +1,6 @@
 # 2016DodgeChallenger
 A FiveM Conversion of https://www.gta5-mods.com/vehicles/2015-dodge-challenger-add-on-stock-shaker-hellcat
+Based on maxgestic's work from https://github.com/maxgestic/2016DodgeChallenger
 
 #Installation
 
