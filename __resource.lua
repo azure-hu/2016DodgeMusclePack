@@ -5,15 +5,21 @@ description 'A FiveM Conversion of https://www.gta5-mods.com/vehicles/2015-dodge
 version '1.0.0'
 
 files {
+    'audioconfig/*.dat151.rel',
+    'audioconfig/*.dat54.rel',
+    'sfx/**/*.awc',
     'data/**/*.meta'
 }
 
-data_file 'HANDLING_FILE' 'data/**/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'data/**/vehicles.meta'
-data_file 'CARCOLS_FILE' 'data/**/carcols.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'data/**/vehiclelayouts.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'data/**/carvariations.meta'
-data_file 'CONTENT_UNLOCKING_META_FILE' 'data/**/contentunlocks.meta'
+	data_file 'AUDIO_GAMEDATA' 'audioconfig/dodgehemihellcat_game.dat'
+	data_file 'AUDIO_SOUNDDATA' 'audioconfig/dodgehemihellcat_sounds.dat'
+	data_file 'AUDIO_WAVEPACK' 'sfx/dlc_dodgehemihellcat'
+	data_file 'HANDLING_FILE' 'data/**/handling.meta'
+	data_file 'VEHICLE_METADATA_FILE' 'data/**/vehicles.meta'
+	data_file 'CARCOLS_FILE' 'data/**/carcols.meta'
+	data_file 'VEHICLE_LAYOUTS_FILE' 'data/**/vehiclelayouts.meta'
+	data_file 'VEHICLE_VARIATION_FILE' 'data/**/carvariations.meta'
+	data_file 'CONTENT_UNLOCKING_META_FILE' 'data/**/contentunlocks.meta'
 
 client_script {
 
