@@ -9,19 +9,25 @@ New addition: Dodge Charger 6.4/6.2SC V8 Engine Sound from https://www.gta5-mods
 #Installation
 
 1. Download "master" branch as zip.
-2. Drag all folders from ZIP file into your resources folder
-3. If you want to use Dodge Challenger 2016: Add "ensure 16challenger" to your server.cfg file
-   If you want to use Dodge Charger 2016:    Add "ensure 16charger" to your server.cfg file
-   For the custom Dodge Wheel Pack:          Add "ensure dodgewheels" to your server.cfg file
-   For the custom HEMI V8 sound pack:		 Add "ensure npolchar" to your server.cfg file
-4. Profit
+2. Drag all folders from ZIP file into your resources folder  
+3. If you want to use Dodge Challenger 2016: Add "ensure 16challenger" to your server.cfg file  
+   If you want to use Dodge Charger 2016:    Add "ensure 16charger" to your server.cfg file  
+   For the custom Dodge Wheel Pack:          Add "ensure dodgewheels" to your server.cfg file  
+   For the custom HEMI V8 sound pack:		 Add "ensure npolchar" to your server.cfg file  
+4. Profit  
+
 
 To use custom sounds, edit the vehicles.meta it is defined in, and replace this line with either;
-
-<audioNameHash>npolchar</audioNameHash> (6.4 NA; police version; addon siren setup)
-<audioNameHash>npolcharciv</audioNameHash> (6.4 NA; civillian version; no sirens, with civillian horn, default for '16charger')
-<audioNameHash>npolchar2</audioNameHash> (6.2 SC; police version; addon siren setup)
-<audioNameHash>npolchar2civ</audioNameHash> (6.2 SC; civillian version; no sirens, with civillian horn, default for '16challenger')
+```xml
+<!-- 6.4 NA; police version; addon siren setup -->  
+<audioNameHash>npolchar</audioNameHash>   
+<!-- 6.4 NA; civillian version; no sirens, with civillian horn, default for '16charger' -->  
+<audioNameHash>npolcharciv</audioNameHash>  
+<!-- 6.2 SC; police version; addon siren setup -->  
+<audioNameHash>npolchar2</audioNameHash>  
+<!-- 6.2 SC; civillian version; no sirens, with civillian horn, default for '16challenger' -->    
+<audioNameHash>npolchar2civ</audioNameHash>  
+```
 
 #Usage
 Spawn car in FiveM with name 16challenger or 16charger.
