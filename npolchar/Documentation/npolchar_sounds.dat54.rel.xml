@@ -1,0 +1,4373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="23961641" />
+ <NameTable>
+  <Item>RESIDENT\FRONTEND</Item>
+  <Item>RESIDENT\VEHICLES</Item>
+  <Item>0</Item>
+  <Item>DLC_npolchar\npolchar</Item>
+  <Item>DLC_npolchar\npolchar_npc</Item>
+  <Item>DLC_npolchar\npolchar2</Item>
+  <Item>DLC_npolchar\npolchar2_npc</Item>
+ </NameTable>
+ <Items>
+  <Item type="GranularSound">
+   <Name>npolchar_engine_accel</Name>
+   <Header>
+    <Flags value="0x01E18011" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+	<Pitch value="0" />
+	<LPFCutoff value="8000" />
+    <Unk18 value="150" />
+    <Unk19 value="12" />
+	<Unk20 value="0" />
+	<Unk21 value="6" />
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_npolchar/npolchar</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_npolchar/npolchar</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_npolchar/npolchar</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_npolchar/npolchar</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_npolchar/npolchar</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_npolchar/npolchar</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-200" />
+   <UnkShort3 value="300" />
+   <UnkShort4 value="-1000" />
+   <UnkShort5 value="300" />
+   <TrackName />
+   <UnkVecData>
+    12.04, 53.33
+    9.57, 9.57
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>npolchar_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x01E18011" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+	<Pitch value="0" />
+	<LPFCutoff value="8000" />
+    <Unk18 value="150" />
+    <Unk19 value="12" />
+	<Unk20 value="0" />
+	<Unk21 value="6" />
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-200" />
+   <UnkShort3 value="300" />
+   <UnkShort4 value="-1000" />
+   <UnkShort5 value="300" />
+   <TrackName>npolchar_engine_accel</TrackName>
+   <UnkVecData>
+    12.04, 53.33
+    9.57, 9.57
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>npolchar_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x01F58014" />
+	<Volume value="2400" />
+    <Pitch value="65535" />
+    <Category>hash_F7C35252</Category>
+	<LPFCutoff value="8000" />
+	<HPFCutoff value="0" />
+	<UnkHash3>hash_3BD35057</UnkHash3>
+    <Unk18 value="10000" />
+    <Unk19 value="12" />
+	<Unk20 value="0" />
+	<Unk21 value="6" />
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>npolchar2_engine_accel</Name>
+   <Header>
+    <Flags value="0x01E18011" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+	<Pitch value="0" />
+	<LPFCutoff value="8000" />
+    <Unk18 value="150" />
+    <Unk19 value="12" />
+	<Unk20 value="0" />
+	<Unk21 value="6" />
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_npolchar/npolchar2</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_npolchar/npolchar2</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_npolchar/npolchar2</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_npolchar/npolchar2</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_npolchar/npolchar2</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_npolchar/npolchar2</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-200" />
+   <UnkShort3 value="300" />
+   <UnkShort4 value="-1000" />
+   <UnkShort5 value="300" />
+   <TrackName />
+   <UnkVecData>
+    12.04, 53.33
+    9.57, 9.57
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>npolchar2_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x01E18011" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+	<Pitch value="0" />
+	<LPFCutoff value="8000" />
+    <Unk18 value="150" />
+    <Unk19 value="12" />
+	<Unk20 value="0" />
+	<Unk21 value="6" />
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_npolchar/npolchar2_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_npolchar/npolchar2_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_npolchar/npolchar2_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_npolchar/npolchar2_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-200" />
+   <UnkShort3 value="300" />
+   <UnkShort4 value="-1000" />
+   <UnkShort5 value="300" />
+   <TrackName>npolchar2_engine_accel</TrackName>
+   <UnkVecData>
+    12.04, 53.33
+    9.57, 9.57
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>npolchar2_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x01F58014" />
+	<Volume value="2400" />
+    <Pitch value="65535" />
+    <Category>hash_F7C35252</Category>
+	<LPFCutoff value="8000" />
+	<HPFCutoff value="0" />
+	<UnkHash3>hash_3BD35057</UnkHash3>
+    <Unk18 value="10000" />
+    <Unk19 value="12" />
+	<Unk20 value="0" />
+	<Unk21 value="6" />
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="SoundSet">
+   <Name>police_vehicle_npolchar_siren</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_26D96F23</ScriptName>
+     <SoundName>sirens_npolchar_blips</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_3E34681F</ScriptName>
+     <SoundName>sirens_npolchar_horn</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_4DD32855</ScriptName>
+     <SoundName>sirens_npolchar_fucked</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_5417639D</ScriptName>
+     <SoundName>sirens_npolchar_fucked_npc</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_64B8047E</ScriptName>
+     <SoundName>sirens_npolchar_siren_2</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_C4EE147F</ScriptName>
+     <SoundName>sirens_npolchar_siren_1</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_CB4A8157</ScriptName>
+     <SoundName>sirens_npolchar_horn_fast</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_D91C6C0F</ScriptName>
+     <SoundName>sirens_npolchar_horn_slow</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_E91F183C</ScriptName>
+     <SoundName>sirens_npolchar_warning</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_siren_1</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_siren_1_dir</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>sirens_npc_npolchar_siren_1</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_siren_1_dir</Item>
+    <Item>sirens_npc_npolchar_siren_1</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>sirens_npolchar_siren_1_dir</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>sirens_npolchar_siren_1_vb</AudioHash>
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="65" />
+   <UnkFloat2 value="-3" />
+   <UnkFloat3 value="90" />
+   <UnkFloat4 value="0" />
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>sirens_npolchar_siren_1_vb</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>sirens_npolchar_siren_1_mt</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_B8C24A01</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_14E6CE6C</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_025577D0</Name>
+     <Value value="20000" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_1BBFE3D6</Name>
+     <Value value="2.4" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_82531C0D</Name>
+     <Value value="-100" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_82DA7FEC</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>sirens_npolchar_siren_1_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_siren_1_wrapper_variables</Item>
+    <Item>sirens_npolchar_siren_1_on_stop</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_siren_1_wrapper_variables</Name>
+   <Header>
+    <Flags value="0x00800000" />
+    <Unk20 value="0" />
+   </Header>
+   <AudioHash0>sirens_npolchar_siren_1_env_components</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables>
+    <Item key="hash_025577D0" value="5" />
+   </Variables>
+   <AudioTracks>
+    <Item>sirens_npolchar_siren_1_env_components</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_siren_1_env_components</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="-1" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="7500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>constant_one</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4>hash_1BBFE3D6</ParameterHash4>
+   <AudioHash>sirens_npolchar_siren_1_env_components_mt</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>sirens_npolchar_siren_1_env_components_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_siren_1_env_components_wrapper_variables</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_siren_1_env_components_wrapper_variables</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>dlc_npolchar_npolchar_siren_1</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_F351F136</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables>
+    <Item key="hash_B8C24A01" value="85" />
+    <Item key="hash_E6CE6C00" value="2" />
+    <Item key="hash_77D00114" value="5" />
+   </Variables>
+   <AudioTracks>
+    <Item>dlc_npolchar_npolchar_siren_1</Item>
+    <Item>hash_F351F136</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_siren_1</Name>
+   <Header>
+    <Flags value="0x3820E004" />
+    <Volume value="65435" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="120" />
+    <Category>vehicles_sirens</Category>
+    <Unk18 value="150" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_0A88B0C3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npc_npolchar_siren_1</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>dlc_npolchar_npolchar_npc_siren_1</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_F351F136</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_npolchar_npolchar_npc_siren_1</Item>
+    <Item>hash_F351F136</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_npc_siren_1</Name>
+   <Header>
+    <Flags value="0x0020E004" />
+    <Volume value="65435" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="120" />
+    <Category>vehicles_sirens</Category>
+    <Unk18 value="150" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+   <FileName>hash_0A88B0C3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>sirens_npolchar_siren_1_on_stop</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Pitch value="200" />
+   </Header>
+   <AudioHash0>sirens_npolchar_siren_1_stop_wrapper</AudioHash0>
+   <AudioHash1>hash_C5457ACD</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_siren_1_stop_wrapper</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Volume value="55536" />
+   </Header>
+   <AudioHash0>dlc_npolchar_npolchar_siren_1</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_npolchar_npolchar_siren_1</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_siren_2</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_siren_2_dir</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>sirens_npc_npolchar_siren_2</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_siren_2_dir</Item>
+    <Item>sirens_npc_npolchar_siren_2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>sirens_npolchar_siren_2_dir</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>dlc_npolchar_npolchar_siren_2</AudioHash>
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="65" />
+   <UnkFloat2 value="-3" />
+   <UnkFloat3 value="90" />
+   <UnkFloat4 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_siren_2</Name>
+   <Header>
+    <Flags value="0x3820E004" />
+    <Volume value="65435" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="120" />
+    <Category>vehicles_sirens</Category>
+    <Unk18 value="150" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_FDCB1748</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npc_npolchar_siren_2</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>dlc_npolchar_npolchar_npc_siren_2</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_C9D79E42</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_npolchar_npolchar_npc_siren_2</Item>
+    <Item>hash_C9D79E42</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_npc_siren_2</Name>
+   <Header>
+    <Flags value="0x0020E004" />
+    <Volume value="65435" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="120" />
+    <Category>vehicles_sirens</Category>
+    <Unk18 value="150" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+   <FileName>hash_FDCB1748</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_warning</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_warning_dir</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>sirens_npc_npolchar_warning</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_warning_dir</Item>
+    <Item>sirens_npc_npolchar_warning</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>sirens_npolchar_warning_dir</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>sirens_npolchar_warning_rnd</AudioHash>
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="65" />
+   <UnkFloat2 value="-3" />
+   <UnkFloat3 value="90" />
+   <UnkFloat4 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sirens_npolchar_warning_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="sirens_npolchar_warning_police_warning_loop" value="1" />
+    <Item key="sirens_npolchar_warning_airhorn_loop" value="1" />
+    <Item key="sirens_npolchar_warning_euro_loop" value="1" />
+   </Items>
+  </Item>
+  <Item type="LoopingSound">
+   <Name>sirens_npolchar_warning_police_warning_loop</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <UnkShort0 value="14" />
+   <UnkShort1 value="6" />
+   <UnkShort2 value="0" />
+   <AudioHash>sirens_npolchar_warning_police_warning_env</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_warning_police_warning_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="80" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_police_warning</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_police_warning</Name>
+   <Header>
+    <Flags value="0x3820E004" />
+    <Volume value="65435" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="120" />
+    <Category>vehicles_sirens</Category>
+    <Unk18 value="150" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_4A76DF50</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>sirens_npolchar_warning_airhorn_loop</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <UnkShort0 value="8" />
+   <UnkShort1 value="2" />
+   <UnkShort2 value="0" />
+   <AudioHash>sirens_npolchar_warning_airhorn_rnd</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sirens_npolchar_warning_airhorn_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="sirens_npolchar_warning_airhorn_env_1" value="1" />
+    <Item key="sirens_npolchar_warning_airhorn_env_2" value="1" />
+    <Item key="sirens_npolchar_warning_airhorn_env_3" value="1" />
+    <Item key="sirens_npolchar_warning_airhorn_env_4" value="1" />
+    <Item key="sirens_npolchar_warning_airhorn_env_5" value="1" />
+    <Item key="null_sound" value="1" />
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_warning_airhorn_env_1</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="75" />
+   <UnkShort4 value="25" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_warning_airhorn_env_2</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="150" />
+   <UnkShort4 value="50" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_warning_airhorn_env_3</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="250" />
+   <UnkShort4 value="75" />
+   <UnkInt1 value="75" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_warning_airhorn_env_4</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="500" />
+   <UnkShort4 value="100" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="50" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_warning_airhorn_env_5</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="700" />
+   <UnkShort4 value="200" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="50" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>sirens_npolchar_warning_euro_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="7" />
+   <UnkShort1 value="4" />
+   <UnkShort2 value="0" />
+   <AudioHash>sirens_npolchar_warning_euro_seq</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_warning_euro_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_warning_euro_high_env</Item>
+    <Item>sirens_npolchar_warning_euro_low_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_warning_euro_high_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="500" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="10" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>sirens_npolchar_warning_euro_high_wrap</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_warning_euro_low_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="500" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="10" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>sirens_npolchar_warning_euro_low_wrap</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_warning_euro_high_wrap</Name>
+   <Header>
+    <Flags value="0x00008010" />
+    <Pitch value="65436" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>hash_82848F83</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_82848F83</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_warning_euro_low_wrap</Name>
+   <Header>
+    <Flags value="0x00008010" />
+    <Pitch value="65436" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>hash_7740DAA4</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_7740DAA4</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npc_npolchar_warning</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npc_npolchar_warning_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_2F3659E5</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npc_npolchar_warning_rnd</Item>
+    <Item>hash_2F3659E5</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sirens_npc_npolchar_warning_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="sirens_npc_npolchar_warning_police_warning_loop" value="1" />
+    <Item key="sirens_npc_npolchar_warning_airhorn_loop" value="1" />
+    <Item key="sirens_npolchar_warning_euro_loop" value="1" />
+   </Items>
+  </Item>
+  <Item type="LoopingSound">
+   <Name>sirens_npc_npolchar_warning_police_warning_loop</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <UnkShort0 value="14" />
+   <UnkShort1 value="6" />
+   <UnkShort2 value="0" />
+   <AudioHash>sirens_npc_npolchar_warning_police_warning_env</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npc_npolchar_warning_police_warning_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="80" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_police_warning</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_npc_police_warning</Name>
+   <Header>
+    <Flags value="0x3820E004" />
+    <Volume value="65435" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="120" />
+    <Category>vehicles_sirens</Category>
+    <Unk18 value="150" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+   <FileName>hash_4A76DF50</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>sirens_npc_npolchar_warning_airhorn_loop</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <UnkShort0 value="8" />
+   <UnkShort1 value="2" />
+   <UnkShort2 value="0" />
+   <AudioHash>sirens_npc_npolchar_warning_airhorn_rnd</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sirens_npc_npolchar_warning_airhorn_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="sirens_npc_npolchar_warning_airhorn_env_1" value="1" />
+    <Item key="sirens_npc_npolchar_warning_airhorn_env_2" value="1" />
+    <Item key="sirens_npc_npolchar_warning_airhorn_env_3" value="1" />
+    <Item key="sirens_npc_npolchar_warning_airhorn_env_4" value="1" />
+    <Item key="sirens_npc_npolchar_warning_airhorn_env_5" value="1" />
+    <Item key="null_sound" value="1" />
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npc_npolchar_warning_airhorn_env_1</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="75" />
+   <UnkShort4 value="25" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npc_npolchar_warning_airhorn_env_2</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="150" />
+   <UnkShort4 value="50" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npc_npolchar_warning_airhorn_env_3</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="250" />
+   <UnkShort4 value="75" />
+   <UnkInt1 value="75" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npc_npolchar_warning_airhorn_env_4</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="500" />
+   <UnkShort4 value="100" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="50" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npc_npolchar_warning_airhorn_env_5</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="700" />
+   <UnkShort4 value="200" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="50" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_airhorn_eqd</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_fucked</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_fucked_dir</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>sirens_npc_npolchar_fucked_dir</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_fucked_dir</Item>
+    <Item>sirens_npc_npolchar_fucked_dir</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>sirens_npolchar_fucked_dir</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>sirens_npolchar_fucked_vb</AudioHash>
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="65" />
+   <UnkFloat2 value="-3" />
+   <UnkFloat3 value="90" />
+   <UnkFloat4 value="0" />
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>sirens_npolchar_fucked_vb</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>sirens_npolchar_fucked_seq</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_7384989B</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_65A41F04</Name>
+     <Value value="0.75" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_3F4BB8CC</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_49E4487F</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_C59A378F</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_583B52D6</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_53087D21</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_fucked_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_fucked_get_time_math</Item>
+    <Item>sirens_npolchar_fucked_math</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MathOperationSound">
+   <Name>sirens_npolchar_fucked_get_time_math</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash />
+   <UnkData>
+    <Item>
+     <UnkByte value="20" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="0" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_C59A378F</ParameterHash1>
+    </Item>
+   </UnkData>
+  </Item>
+  <Item type="MathOperationSound">
+   <Name>sirens_npolchar_fucked_math</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash>sirens_npolchar_fucked_wrapper_variables</AudioHash>
+   <UnkData>
+    <Item>
+     <UnkByte value="20" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="0" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_7384989B</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="1" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1938069659" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="-979748977" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_49E4487F</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="4" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1938069659" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_C59A378F</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="1" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1705254660" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="1239697535" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_65A41F04</ParameterHash1>
+    </Item>
+   </UnkData>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_fucked_wrapper_variables</Name>
+   <Header>
+    <Flags value="0x00800000" />
+    <Unk20 value="0" />
+   </Header>
+   <AudioHash0>sirens_npolchar_fucked_fsel_math</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables>
+    <Item key="hash_3F4BB8CC" value="1" />
+   </Variables>
+   <AudioTracks>
+    <Item>sirens_npolchar_fucked_fsel_math</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MathOperationSound">
+   <Name>sirens_npolchar_fucked_fsel_math</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash>dlc_npolchar_npolchar_siren_1</AudioHash>
+   <UnkData>
+    <Item>
+     <UnkByte value="12" />
+     <UnkInt0 value="-1056964608" />
+     <UnkInt1 value="0" />
+     <UnkInt2 value="1090519040" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_583B52D6</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="12" />
+     <UnkInt0 value="1048576000" />
+     <UnkInt1 value="0" />
+     <UnkInt2 value="1069547520" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_53087D21</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="21" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1705254660" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="1061927116" />
+     <UnkInt4 value="0" />
+     <ParameterHash0>hash_583B52D6</ParameterHash0>
+     <ParameterHash1>hash_3F4BB8CC</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="21" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1705254660" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="1705254660" />
+     <UnkInt4 value="0" />
+     <ParameterHash0>hash_53087D21</ParameterHash0>
+     <ParameterHash1>hash_65A41F04</ParameterHash1>
+    </Item>
+   </UnkData>
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>sirens_npc_npolchar_fucked_dir</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>sirens_npc_npolchar_fucked_vb</AudioHash>
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="65" />
+   <UnkFloat2 value="-3" />
+   <UnkFloat3 value="90" />
+   <UnkFloat4 value="0" />
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>sirens_npc_npolchar_fucked_vb</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>sirens_npc_npolchar_fucked_seq</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_7384989B</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_65A41F04</Name>
+     <Value value="0.75" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_3F4BB8CC</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_49E4487F</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_C59A378F</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_583B52D6</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>hash_53087D21</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npc_npolchar_fucked_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npc_npolchar_fucked_get_time_math</Item>
+    <Item>sirens_npc_npolchar_fucked_math</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MathOperationSound">
+   <Name>sirens_npc_npolchar_fucked_get_time_math</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash />
+   <UnkData>
+    <Item>
+     <UnkByte value="20" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="0" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_C59A378F</ParameterHash1>
+    </Item>
+   </UnkData>
+  </Item>
+  <Item type="MathOperationSound">
+   <Name>sirens_npc_npolchar_fucked_math</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash>sirens_npc_npolchar_fucked_wrapper_variables</AudioHash>
+   <UnkData>
+    <Item>
+     <UnkByte value="20" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="0" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_7384989B</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="1" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1938069659" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="-979748977" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_49E4487F</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="4" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1938069659" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_C59A378F</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="1" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1705254660" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="1239697535" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_65A41F04</ParameterHash1>
+    </Item>
+   </UnkData>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npc_npolchar_fucked_wrapper_variables</Name>
+   <Header>
+    <Flags value="0x00800000" />
+    <Unk20 value="0" />
+   </Header>
+   <AudioHash0>sirens_npc_npolchar_fucked_fsel_math</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables>
+    <Item key="hash_3F4BB8CC" value="1" />
+   </Variables>
+   <AudioTracks>
+    <Item>sirens_npc_npolchar_fucked_fsel_math</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MathOperationSound">
+   <Name>sirens_npc_npolchar_fucked_fsel_math</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash>dlc_npolchar_npolchar_npc_siren_1</AudioHash>
+   <UnkData>
+    <Item>
+     <UnkByte value="12" />
+     <UnkInt0 value="-1056964608" />
+     <UnkInt1 value="0" />
+     <UnkInt2 value="1090519040" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_583B52D6</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="12" />
+     <UnkInt0 value="1048576000" />
+     <UnkInt1 value="0" />
+     <UnkInt2 value="1069547520" />
+     <UnkInt3 value="0" />
+     <UnkInt4 value="0" />
+     <ParameterHash0 />
+     <ParameterHash1>hash_53087D21</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="21" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1705254660" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="1061927116" />
+     <UnkInt4 value="0" />
+     <ParameterHash0>hash_583B52D6</ParameterHash0>
+     <ParameterHash1>hash_3F4BB8CC</ParameterHash1>
+    </Item>
+    <Item>
+     <UnkByte value="21" />
+     <UnkInt0 value="0" />
+     <UnkInt1 value="1705254660" />
+     <UnkInt2 value="0" />
+     <UnkInt3 value="1705254660" />
+     <UnkInt4 value="0" />
+     <ParameterHash0>hash_53087D21</ParameterHash0>
+     <ParameterHash1>hash_65A41F04</ParameterHash1>
+    </Item>
+   </UnkData>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_fucked_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_fucked_npc_env</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>sirens_npc_npolchar_fucked_npc_env</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_fucked_npc_env</Item>
+    <Item>sirens_npc_npolchar_fucked_npc_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_fucked_npc_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="0" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>constant_one</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>sirens_npolchar_siren_1_dir</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npc_npolchar_fucked_npc_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="0" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>constant_one</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>sirens_npc_npolchar_siren_1</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_blips</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_blips_dir</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_975EE16D</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_dir</Item>
+    <Item>hash_975EE16D</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>sirens_npolchar_blips_dir</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>sirens_npolchar_blips_vb</AudioHash>
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="65" />
+   <UnkFloat2 value="-3" />
+   <UnkFloat3 value="90" />
+   <UnkFloat4 value="0" />
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>sirens_npolchar_blips_vb</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>sirens_npolchar_blips_rnd</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_AF169697</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sirens_npolchar_blips_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF FF FF FF</UnkBytes>
+   <Items>
+    <Item key="sirens_npolchar_blips_1_seq" value="1" />
+    <Item key="sirens_npolchar_blips_2_seq" value="1" />
+    <Item key="sirens_npolchar_blips_3_seq" value="1" />
+    <Item key="sirens_npolchar_blips_4_seq" value="1" />
+    <Item key="sirens_npolchar_blips_5_seq" value="1" />
+    <Item key="sirens_npolchar_blips_6_siren_1_env" value="1" />
+    <Item key="sirens_npolchar_blips_7_seq" value="1" />
+    <Item key="sirens_npolchar_blips_8_seq" value="1" />
+   </Items>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_blips_1_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_1_siren_1_short_env</Item>
+    <Item>sirens_npolchar_blips_1_siren_1_long_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_1_siren_1_short_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="20" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="140" />
+   <UnkInt2 value="20" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_siren_1</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_1_siren_1_long_env</Name>
+   <Header>
+    <Flags value="0x38000301" />
+    <Flags2 value="0xAAA1AAAA" />
+    <PreDelay value="30" />
+    <PreDelayVariance value="15" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="500" />
+   <UnkShort4 value="300" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_siren_1</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_blips_2_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_2_airhorn_short_env</Item>
+    <Item>sirens_npolchar_blips_2_airhorn_long_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_2_airhorn_short_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="75" />
+   <UnkShort4 value="25" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_airhorn_eqd</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_2_airhorn_long_env</Name>
+   <Header>
+    <Flags value="0x38000301" />
+    <Flags2 value="0xAAA1AAAA" />
+    <PreDelay value="30" />
+    <PreDelayVariance value="15" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="600" />
+   <UnkShort4 value="400" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_airhorn_eqd</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_blips_3_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_3_police_warning_rtol</Item>
+    <Item>sirens_npolchar_blips_3_siren_2_rtol</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>sirens_npolchar_blips_3_police_warning_rtol</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA5AAAA" />
+   </Header>
+   <UnkShort0 value="4" />
+   <UnkShort1 value="1" />
+   <UnkShort2 value="80" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>sirens_npolchar_blips_3_police_warning_env</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_3_police_warning_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="80" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_police_warning</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>sirens_npolchar_blips_3_siren_2_rtol</Name>
+   <Header>
+    <Flags value="0x00000301" />
+    <Flags2 value="0xAAA5AAAA" />
+    <PreDelay value="25" />
+    <PreDelayVariance value="15" />
+   </Header>
+   <UnkShort0 value="2" />
+   <UnkShort1 value="1" />
+   <UnkShort2 value="305" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>sirens_npolchar_blips_3_siren_2_env</AudioHash1>
+   <AudioHash2>sirens_npolchar_blips_3_siren_2_tail_env</AudioHash2>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_3_siren_2_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="305" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_siren_2</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_3_siren_2_tail_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="300" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="0" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>sirens_npolchar_blips_3_siren_2_pts</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>sirens_npolchar_blips_3_siren_2_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>dlc_npolchar_npolchar_siren_2</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_AF169697</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 1
+        0.9, 1
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 1
+        0.85, 0.9
+        1, 0.5
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_blips_4_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_3_siren_2_env</Item>
+    <Item>sirens_npolchar_blips_1_siren_1_long_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_blips_5_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_3_siren_2_env</Item>
+    <Item>sirens_npolchar_blips_5_police_warning_wrap</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_blips_5_police_warning_wrap</Name>
+   <Header>
+    <Flags value="0x00008300" />
+    <PreDelay value="25" />
+    <PreDelayVariance value="15" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_blips_3_police_warning_rtol</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_3_police_warning_rtol</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_6_siren_1_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="700" />
+   <UnkShort1 value="300" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="0" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>sirens_npolchar_blips_6_siren_1_pts</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>sirens_npolchar_blips_6_siren_1_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>sirens_npolchar_blips_6_siren_1_wrap</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_AF169697</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.1, 1
+        0.4, 1
+        0.9, 8
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.85
+        0.3, 1
+        0.8, 0.9
+        1, 0.85
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_blips_6_siren_1_wrap</Name>
+   <Header>
+    <Flags value="0x00008C00" />
+    <StartOffset value="3700" />
+    <StartOffsetVariance value="500" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>dlc_npolchar_npolchar_siren_1</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_npolchar_npolchar_siren_1</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_blips_7_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_7_siren_1_short_env</Item>
+    <Item>sirens_npolchar_blips_7_siren_1_long_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_7_siren_1_short_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="80" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="140" />
+   <UnkInt2 value="20" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_siren_1</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_7_siren_1_long_env</Name>
+   <Header>
+    <Flags value="0x38000301" />
+    <Flags2 value="0xAAA1AAAA" />
+    <PreDelay value="50" />
+    <PreDelayVariance value="25" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="400" />
+   <UnkShort4 value="200" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_siren_1</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_blips_8_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_blips_8_airhorn_env</Item>
+    <Item>sirens_npolchar_blips_3_siren_2_rtol</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_blips_8_airhorn_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="800" />
+   <UnkShort4 value="400" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="25" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_airhorn_eqd</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_horn</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_horn_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>dlc_npolchar_npolchar_npc_airhorn_eqd</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_mt</Item>
+    <Item>dlc_npolchar_npolchar_npc_airhorn_eqd</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>sirens_npolchar_horn_mt</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_loop</Item>
+    <Item>dlc_npolchar_npolchar_airhorn_eqd</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_airhorn_eqd</Name>
+   <Header>
+    <Flags value="0x0020C004" />
+    <Volume value="100" />
+    <DopplerFactor value="80" />
+    <Category>vehicles_horns_loud</Category>
+    <Unk18 value="300" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_CEA58C7C</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>sirens_npolchar_horn_loop</Name>
+   <Header>
+    <Flags value="0x00002001" />
+    <Flags2 value="0xAAA8AAAA" />
+    <ReleaseTime value="100" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>sirens_npolchar_horn_loop_delay</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_horn_loop_delay</Name>
+   <Header>
+    <Flags value="0x00000300" />
+    <PreDelay value="800" />
+    <PreDelayVariance value="100" />
+   </Header>
+   <AudioHash0>sirens_npolchar_horn_blips_dir</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_blips_dir</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>sirens_npolchar_horn_blips_dir</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash>sirens_npolchar_horn_blips_vb</AudioHash>
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="65" />
+   <UnkFloat2 value="-3" />
+   <UnkFloat3 value="90" />
+   <UnkFloat4 value="0" />
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>sirens_npolchar_horn_blips_vb</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>sirens_npolchar_horn_blips_rnd</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_AF169697</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sirens_npolchar_horn_blips_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF FF FF</UnkBytes>
+   <Items>
+    <Item key="sirens_npolchar_blips_1_seq" value="1" />
+    <Item key="sirens_npolchar_blips_3_seq" value="1" />
+    <Item key="sirens_npolchar_blips_4_seq" value="1" />
+    <Item key="sirens_npolchar_blips_5_seq" value="1" />
+    <Item key="hash_CC088704" value="1" />
+    <Item key="sirens_npolchar_blips_7_seq" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_npc_airhorn_eqd</Name>
+   <Header>
+    <Flags value="0x0020C004" />
+    <Volume value="100" />
+    <DopplerFactor value="80" />
+    <Category>vehicles_horns_loud</Category>
+    <Unk18 value="300" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+   <FileName>hash_CEA58C7C</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_horn_slow</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_horn_slow_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_56603023</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_slow_rnd</Item>
+    <Item>hash_56603023</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sirens_npolchar_horn_slow_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="sirens_npolchar_horn_slow_seq_1" value="1" />
+    <Item key="sirens_npolchar_horn_slow_seq_2" value="1" />
+   </Items>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_horn_slow_seq_1</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_slow_siren_1_short_env</Item>
+    <Item>sirens_npolchar_horn_slow_siren_1_long_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_horn_slow_siren_1_short_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="20" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="140" />
+   <UnkInt2 value="20" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_siren_1</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_horn_slow_siren_1_long_env</Name>
+   <Header>
+    <Flags value="0x38000301" />
+    <Flags2 value="0xAAA1AAAA" />
+    <PreDelay value="30" />
+    <PreDelayVariance value="15" />
+    <Unk22 value="50" />
+    <Unk23 value="50" />
+    <Unk24 value="50" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="500" />
+   <UnkShort4 value="300" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_siren_1</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_horn_slow_seq_2</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_slow_siren_2_env</Item>
+    <Item>sirens_npolchar_horn_slow_siren_1_long_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_horn_slow_siren_2_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="305" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_siren_2</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_horn_fast</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_horn_fast_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_C624EFAC</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_fast_rnd</Item>
+    <Item>hash_C624EFAC</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sirens_npolchar_horn_fast_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="sirens_npolchar_horn_fast_seq_1" value="1" />
+    <Item key="sirens_npolchar_horn_fast_seq_2" value="1" />
+   </Items>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_horn_fast_seq_1</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_fast_police_warning_rtol</Item>
+    <Item>sirens_npolchar_horn_fast_siren_2_rtol</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>sirens_npolchar_horn_fast_police_warning_rtol</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA5AAAA" />
+   </Header>
+   <UnkShort0 value="4" />
+   <UnkShort1 value="1" />
+   <UnkShort2 value="80" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>sirens_npolchar_horn_fast_police_warning_env</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_horn_fast_police_warning_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="80" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_police_warning</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>sirens_npolchar_horn_fast_siren_2_rtol</Name>
+   <Header>
+    <Flags value="0x00000301" />
+    <Flags2 value="0xAAA5AAAA" />
+    <PreDelay value="25" />
+    <PreDelayVariance value="15" />
+   </Header>
+   <UnkShort0 value="2" />
+   <UnkShort1 value="1" />
+   <UnkShort2 value="305" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>sirens_npolchar_horn_fast_siren_2_env</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>sirens_npolchar_horn_fast_siren_2_env</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk22 value="25" />
+    <Unk23 value="25" />
+    <Unk24 value="25" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="305" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="0" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_94AE4ADD</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_npc_siren_2</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SequentialSound">
+   <Name>sirens_npolchar_horn_fast_seq_2</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_fast_siren_2_env</Item>
+    <Item>sirens_npolchar_horn_fast_police_warning_wrap</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sirens_npolchar_horn_fast_police_warning_wrap</Name>
+   <Header>
+    <Flags value="0x00008300" />
+    <PreDelay value="25" />
+    <PreDelayVariance value="15" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <AudioHash0>sirens_npolchar_horn_fast_police_warning_rtol</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sirens_npolchar_horn_fast_police_warning_rtol</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>npolchar_transmission_vb</Name>
+   <Header>
+    <Flags value="0x0020A014" />
+    <Volume value="6000" />
+	<Pitch value="64185" />
+    <ReleaseTime value="30" />
+    <Category>hash_F7C35252</Category>
+    <Unk18 value="1500" />
+   </Header>
+   <AudioHash>npolchar_transmission_pts</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_BE74155D</Name>
+     <Value value="5" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_5B924509</Name>
+     <Value value="0.5" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_5C31BE9C</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_C23BF9F9</Name>
+     <Value value="2.5" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_30FBBB42</Name>
+     <Value value="0.5" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_4DAC2C57</Name>
+     <Value value="3" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>npolchar_transmission_pts</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Volume value="0" />
+   </Header>
+   <AudioHash>npolchar_transmission_whine</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_5B924509</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="0.06309573" />
+       <UnkFloat2 value="10" />
+       <Vectors>
+        0.2, 0
+        0.5266666, 0.5066667
+        0.75, 0.7133334
+        1, 0.5966667
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>npolchar_transmission_whine</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Volume value="0" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>transmission_whine</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>horn2_loop</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_horn2_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>horn2_tail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>npolchar_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_npolchar_horn2_loop</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>npolchar_horn2_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>npolchar_horn2_loop</AudioHash0>
+   <AudioHash1>dlc_npolchar_horn2_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_horn2</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <AudioHash0>npolchar_horn2_onstop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_horn2_onstop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npc_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+   <FileName>horn2_loop</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npc_horn2_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar_npc</ContainerName>
+   <FileName>horn2_tail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>npolchar_horn2_npc_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_npolchar_npc_horn2_loop</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>npolchar_horn2_npc_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>npolchar_horn2_npc_loop</AudioHash0>
+   <AudioHash1>dlc_npolchar_npc_horn2_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_horn2_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <AudioHash0>npolchar_horn2_npc_onstop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_horn2_npc_onstop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_npolchar</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+	<Item>npolchar_horn2</Item>
+   </Items>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_npolchar_npc</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+	<Item>npolchar_horn2_npc</Item>
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar2_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar2</ContainerName>
+   <FileName>horn2_loop</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar2_horn2_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar2</ContainerName>
+   <FileName>horn2_tail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>npolchar2_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_npolchar2_horn2_loop</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>npolchar2_horn2_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>npolchar2_horn2_loop</AudioHash0>
+   <AudioHash1>dlc_npolchar2_horn2_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar2_horn2</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <AudioHash0>npolchar2_horn2_onstop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar2_horn2_onstop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar2_npc_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar2_npc</ContainerName>
+   <FileName>horn2_loop</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar2_npc_horn2_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar2_npc</ContainerName>
+   <FileName>horn2_tail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>npolchar2_horn2_npc_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_npolchar2_npc_horn2_loop</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>npolchar2_horn2_npc_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>npolchar2_horn2_npc_loop</AudioHash0>
+   <AudioHash1>dlc_npolchar2_npc_horn2_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar2_horn2_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <AudioHash0>npolchar2_horn2_npc_onstop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar2_horn2_npc_onstop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_npolchar2</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+	<Item>npolchar2_horn2</Item>
+   </Items>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_npolchar2_npc</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+	<Item>npolchar2_horn2_npc</Item>
+   </Items>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>npolchar_startup_sequence</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>hash_7DA2DB72</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="5" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_0EB27990</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.03426933, 1
+        0.1314227, 1
+        0.3676034, 0
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_CEB98BEB</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.2
+        0.06475534, 0.6666666
+        0.1776034, 0.3928
+        0.4466673, 0.2
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_91DF7F97</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.0009367257, 1
+        0.5976034, 1
+        0.6833333, 0
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>npolchar_synth_veh_idle_sub</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Volume value="65136" />
+    <Pitch value="1200" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <OptAmpUnkHash>schlagen_sub_idle</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_ABD2A3D6</UnkHash>
+     <ParameterHash />
+     <Value value="13" />
+    </Item>
+    <Item>
+     <UnkHash>hash_AAED9868</UnkHash>
+     <ParameterHash />
+     <Value value="61" />
+    </Item>
+    <Item>
+     <UnkHash>hash_4E132C3B</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_18B20B91</UnkHash>
+     <ParameterHash />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_E07986E5</UnkHash>
+     <ParameterHash />
+     <Value value="3.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_52E84522</UnkHash>
+     <ParameterHash />
+     <Value value="1.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_8115C581</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_24E7B0B4</UnkHash>
+     <ParameterHash />
+     <Value value="10" />
+    </Item>
+    <Item>
+     <UnkHash>hash_D250E3B7</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_15857327</UnkHash>
+     <ParameterHash />
+     <Value value="250" />
+    </Item>
+    <Item>
+     <UnkHash>hash_39B29F61</UnkHash>
+     <ParameterHash />
+     <Value value="0.5" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>npolchar_synth_veh_idle_sub_supercharged</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Volume value="64636" />
+    <Pitch value="1200" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <OptAmpUnkHash>tampa_synth_sub_idle_supercharged</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_ABD2A3D6</UnkHash>
+     <ParameterHash />
+     <Value value="9" />
+    </Item>
+    <Item>
+     <UnkHash>hash_AAED9868</UnkHash>
+     <ParameterHash />
+     <Value value="35" />
+    </Item>
+    <Item>
+     <UnkHash>hash_4E132C3B</UnkHash>
+     <ParameterHash />
+     <Value value="0.2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_24E7B0B4</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7E8B1429</UnkHash>
+     <ParameterHash />
+     <Value value="0.4" />
+    </Item>
+    <Item>
+     <UnkHash>hash_667DE3B3</UnkHash>
+     <ParameterHash />
+     <Value value="0.3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_764797A1</UnkHash>
+     <ParameterHash />
+     <Value value="16" />
+    </Item>
+    <Item>
+     <UnkHash>hash_C32CC134</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_1DC582D6</UnkHash>
+     <ParameterHash />
+     <Value value="0.22" />
+    </Item>
+    <Item>
+     <UnkHash>hash_3F8AD907</UnkHash>
+     <ParameterHash />
+     <Value value="1.1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_56D36C02</UnkHash>
+     <ParameterHash>hash_51384371</ParameterHash>
+     <Value value="1" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_dump_valve</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <PreDelay value="100" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>dump_valve</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_waste_gate</Name>
+   <Header>
+    <Flags value="0x00000020" />
+    <PitchVariance value="50" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>waste_gate</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_dump_valve_upgraded</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>npolchar_dump_valve_surge_vb</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_6E002307</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_dump_valve_surge_vb</Item>
+    <Item>hash_6E002307</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>npolchar_dump_valve_surge_vb</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>npolchar_dump_valve_upgraded_mt</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_CF28C7B3</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_96499EA2</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>npolchar_dump_valve_upgraded_mt</Name>
+   <Header>
+    <Flags value="0x00008035" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Volume value="500" />
+    <Pitch value="60" />
+    <PitchVariance value="20" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioTracks>
+    <Item>npolchar_dump_valve_surge_pts</Item>
+    <Item>npolchar_dump_valve_hiss_pts</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>npolchar_dump_valve_surge_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>npolchar_dump_valve_surge_env</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_CF28C7B3</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_96499EA2</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="0.8" />
+       <Vectors>
+        0, 0
+        0.56, 0.6316667
+        0.8259363, 0.7637778
+        1, 1
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="0.7071068" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.15
+        1, 1
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.83
+        0.5992696, 0.9833333
+        1, 1
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>npolchar_dump_valve_surge_env</Name>
+   <Header>
+    <Flags value="0x0000003D" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Volume value="300" />
+    <VolumeVariance value="200" />
+    <Pitch value="100" />
+    <PitchVariance value="50" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="800" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3>hash_96499EA2</ParameterHash3>
+   <ParameterHash4 />
+   <AudioHash>dlc_npolchar_npolchar_waste_gate</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>npolchar_dump_valve_hiss_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>dlc_npolchar_npolchar_dump_valve</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_CF28C7B3</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.246729, 0.3671111
+        0.5526, 0.6366577
+        1, 0.9
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_start_up_exterior</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_start_up_interior_left</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Pan value="307" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_4934CB84</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_start_up_interior_right</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Pan value="53" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_60BE07BB</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>npolchar_startup_interior_stereo_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_npolchar_npolchar_start_up_interior_left</Item>
+    <Item>dlc_npolchar_npolchar_start_up_interior_right</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="IfSound">
+   <Name>npolchar_startup_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash1>dlc_npolchar_npolchar_start_up_exterior</AudioHash1>
+   <AudioHash2>npolchar_startup_interior_stereo_mt</AudioHash2>
+   <ParameterHash1>hash_378A1D92</ParameterHash1>
+   <UnkByte value="4" />
+   <UnkFloat value="0" />
+   <ParameterHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_startup</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="3000" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <AudioHash0>npolchar_startup_if</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>null_sound</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_startup_if</Item>
+    <Item>null_sound</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_B050E468</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_9F0F41E5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_CD5D9E81</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_FD5F7E84</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_05</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_EB5ADA7B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_06</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_1A1537EF</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_limiter_pop_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_498FD564</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_limiter_pop_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_306F2323</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_limiter_pop_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_250C0C5D</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_vehicle_extras_rally_limiter_pop_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_451FCC9C</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>npolchar_exhaust_pops_rnd</Name>
+   <Header>
+    <Flags value="0x00048020" />
+    <Category>vehicles_extras_loud</Category>
+	<PitchVariance value="25" />
+    <HPFCutoff value="100" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF FF</UnkBytes>
+   <Items>
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_06" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_05" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_03" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_02" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_01" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>npolchar_exhaust_pops_mt</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Volume value="600" />
+   </Header>
+   <AudioTracks>
+    <Item>npolchar_exhaust_pops_rnd</Item>
+    <Item>npolchar_exhaust_pops_swtn</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_exhaust_pops_swtn</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioHash0>hash_6095AA8D</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_6095AA8D</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_exhaust_pops</Name>
+   <Header>
+    <Flags value="0x00000014" />
+    <Volume value="64936" />
+    <Pitch value="65336" />
+   </Header>
+   <AudioHash0>npolchar_limiter_pops_oneshot_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_0C2B85F2</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_limiter_pops_oneshot_rnd</Item>
+    <Item>hash_0C2B85F2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_exhaust_pops_upgraded</Name>
+   <Header>
+    <Flags value="0x00000034" />
+    <Volume value="65236" />
+    <Pitch value="65336" />
+    <PitchVariance value="50" />
+   </Header>
+   <AudioHash0>npolchar_exhaust_pops_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_0C2B85F2</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_exhaust_pops_mt</Item>
+    <Item>hash_0C2B85F2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>npolchar_limiter_pops_rnd</Name>
+   <Header>
+    <Flags value="0x00048024" />
+    <Volume value="65336" />
+    <PitchVariance value="25" />
+    <Category>vehicles_extras_loud</Category>
+    <HPFCutoff value="80" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_limiter_pop_04" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_limiter_pop_03" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_limiter_pop_02" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_limiter_pop_01" value="1" />
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_limiter_pops</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Volume value="700" />
+   </Header>
+   <AudioHash0>npolchar_limiter_pops_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_0C2B85F2</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_limiter_pops_mt</Item>
+    <Item>hash_0C2B85F2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>npolchar_limiter_pops_mt</Name>
+   <Header>
+    <Flags value="0x00040001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <HPFCutoff value="200" />
+   </Header>
+   <AudioTracks>
+    <Item>npolchar_limiter_pops_rnd</Item>
+    <Item>npolchar_limiter_pops_oneshot_rnd</Item>
+    <Item>npolchar_limiter_pops_oneshot_end_rnd</Item>
+    <Item>npolchar_exhaust_pops_swtn</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>npolchar_limiter_pops_oneshot_rnd</Name>
+   <Header>
+    <Flags value="0x00008020" />
+    <PitchVariance value="50" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_01" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_03" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_04" value="1" />
+    <Item key="dlc_npolchar_npolchar_vehicle_extras_rally_exhaust_pop_05" value="1" />
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_limiter_pops_oneshot_end_rnd</Name>
+   <Header>
+    <Flags value="0x00000320" />
+    <PitchVariance value="100" />
+    <PreDelay value="280" />
+    <PreDelayVariance value="20" />
+   </Header>
+   <AudioHash0>npolchar_limiter_pops_oneshot_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_limiter_pops_oneshot_rnd</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_shut_down</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="100" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>hash_3B393DEA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_door_open</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>door_open</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_door_close</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>door_close</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_door_open</Name>
+   <Header>
+    <Flags value="0x00008020" />
+    <PitchVariance value="50" />
+    <Category>vehicles_doors</Category>
+   </Header>
+   <AudioHash0>dlc_npolchar_npolchar_door_open</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_6189B119</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_npolchar_npolchar_door_open</Item>
+    <Item>hash_6189B119</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_door_close</Name>
+   <Header>
+    <Flags value="0x00008024" />
+    <Volume value="400" />
+    <PitchVariance value="50" />
+    <Category>vehicles_doors</Category>
+   </Header>
+   <AudioHash0>dlc_npolchar_npolchar_door_close</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_57F784EE</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_npolchar_npolchar_door_close</Item>
+    <Item>hash_57F784EE</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_ignition</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>npolchar_ignition_switch</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_26DE38C2</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_ignition_switch</Item>
+    <Item>hash_26DE38C2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="OnStopSound">
+   <Name>npolchar_ignition_switch</Name>
+   <Header>
+    <Flags value="0x00008014" />
+    <Volume value="100" />
+	<Pitch value="65535" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioHash0>dlc_npolchar_npolchar_ignition_start</AudioHash0>
+   <AudioHash1>dlc_npolchar_npolchar_ignition_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_ignition_start</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>ignition_start</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_npolchar_npolchar_ignition_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_npolchar/npolchar</ContainerName>
+   <FileName>ignition_tail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>npolchar_synth_shutdown_beep_01</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <OptAmpUnkHash>hash_A6C12C2F</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>npolchar_synth_shutdown_beep_02</Name>
+   <Header>
+    <Flags value="0x00000101" />
+    <Flags2 value="0xAAA8AAAA" />
+    <PreDelay value="50" />
+   </Header>
+   <OptAmpUnkHash>hash_A6C12C2F</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems />
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>npolchar_shutdown_beeps_ext</Name>
+   <Header>
+    <Flags value="0x18010011" />
+    <Flags2 value="0xA004AAAA" />
+    <Pitch value="500" />
+    <LPFCutoff value="15000" />
+    <Unk22 value="100" />
+    <Unk23 value="40" />
+   </Header>
+   <UnkShort value="70" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioTracks>
+    <Item>npolchar_synth_shutdown_beep_01</Item>
+    <Item>npolchar_synth_shutdown_beep_02</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>npolchar_shutdown_beeps</Name>
+   <Header>
+    <Flags value="0x00008104" />
+    <Volume value="64536" />
+    <PreDelay value="480" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <AudioHash0>npolchar_shutdown_beeps_ext</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>npolchar_shutdown_beeps_ext</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>
